@@ -170,7 +170,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-07-30 17:55:09 / Modified: 19:06:50" itemprop="dateCreated datePublished" datetime="2020-07-30T17:55:09+08:00">2020-07-30</time>
+              <time title="Created: 2020-07-30 17:55:09 / Modified: 19:17:46" itemprop="dateCreated datePublished" datetime="2020-07-30T17:55:09+08:00">2020-07-30</time>
             </span>
 
           
@@ -196,29 +196,9 @@
 <p>要倾斜和加粗的文字左右分别用三个*号包起来</p>
 <p>删除线</p>
 <p>要加删除线的文字左右分别用两个<del>号包起来<br>示例：<br><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br>~</del>这是加删除线的文字~~</p>
-<p>三、引用<br>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>n个…<br>貌似可以一直加下去，但没神马卵用<br>示例：</p>
+<p>三、引用<br>在引用的文字前加&gt;即可。<br>示例：</p>
 <blockquote>
 <p>这是引用的内容</p>
-<blockquote>
-<p>这是引用的内容</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>这是引用的内容</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
 </blockquote>
 <p>四、分割线<br>三个或者三个以上的 - 或者 * 都可以。<br>示例：</p>
 <hr>
@@ -248,43 +228,14 @@
 <li>列表内容</li>
 </ol>
 <p>注意：序号跟内容之间要有空格</p>
-<p>列表嵌套<br>上一级和下一级之间敲三个空格即可</p>
-<p>一级无序列表内容</p>
-<p>二级无序列表内容<br>二级无序列表内容<br>二级无序列表内容</p>
-<p>一级无序列表内容</p>
-<p>二级有序列表内容<br>二级有序列表内容<br>二级有序列表内容</p>
-<p>一级有序列表内容</p>
-<p>二级无序列表内容<br>二级无序列表内容<br>二级无序列表内容</p>
-<p>一级有序列表内容</p>
-<p>二级有序列表内容<br>二级有序列表内容<br>二级有序列表内容</p>
-<p>八、表格<br>语法：<br>表头|表头|表头<br>—|:–:|—:<br>内容|内容|内容<br>内容|内容|内容</p>
-<p>第二行分割表头和内容。</p>
-<ul>
-<li>有一个就行，为了对齐，多加了几个<br>文字默认居左</li>
-<li>两边加：表示文字居中</li>
-<li>右边加：表示文字居右<br>注：原生的语法两边都要用 | 包起来。此处省略</li>
-</ul>
-<p>姓名<br>技能<br>排行</p>
-<p>刘备<br>哭<br>大哥</p>
-<p>关羽<br>打<br>二哥</p>
-<p>张飞<br>骂<br>三弟</p>
-<p>九、代码<br>语法：<br>单行代码：代码之间分别用一个反引号包起来<br>    <code>代码内容</code></p>
-<p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行<br>(<code>)   代码...   代码...   代码... (</code>)</p>
-<p>注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</p>
-<p>示例：<br>单行代码<br><code>create database hero;</code></p>
-<p>代码块<br>(<code>)     function fun()&#123;          echo &quot;这是一句非常牛逼的代码&quot;;     &#125;     fun(); (</code>)</p>
-<p>效果如下：<br>单行代码<br>create database hero;<br>代码块<br>function fun(){<br>  echo “这是一句非常牛逼的代码”;<br>}<br>fun();</p>
-<p>十、流程图</p>
-<pre><code class="flow">st=&gt;start: 开始
-op=&gt;operation: My Operation
-cond=&gt;condition: Yes or No?
-e=&gt;end
-st-&gt;op-&gt;cond
-cond(yes)-&gt;e
-cond(no)-&gt;op
-&amp;```
+<p>九、代码<br>语法：<br>单行代码：代码之间分别用一个反引号包起来</p>
+<pre><code>`代码内容`</code></pre>
+<p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">代码...</span><br><span class="line">代码...</span><br><span class="line">代码...</span><br></pre></td></tr></table></figure>
 
-</code></pre>
+
+<p>十、流程图</p>
+<p><code>flow st=&gt;start: 开始 op=&gt;operation: My Operation cond=&gt;condition: Yes or No? e=&gt;end st-&gt;op-&gt;cond cond(yes)-&gt;e cond(no)-&gt;op &amp;</code></p>
 
       
     </div>
